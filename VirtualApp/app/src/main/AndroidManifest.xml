@@ -14,7 +14,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/vxp"
         android:theme="@style/LauncherTheme"
+        android:usesCleartextTraffic="true"
         tools:replace="android:icon,android:label">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
         <meta-data
             android:name="android.max_aspect"
